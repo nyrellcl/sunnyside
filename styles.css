@@ -29,6 +29,15 @@ a{
   background-position: center;
 }
 
+.img-title{
+  font-family: 'Fraunces', serif;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
 .nav-cont{
   position: relative;
   width: auto;
