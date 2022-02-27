@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+.img-cont{
+  background-image: url('./images/desktop/image-header.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.nav-list{
+  color: white;
+  display: flex;
+  margin-right: 1.5rem;
+}
