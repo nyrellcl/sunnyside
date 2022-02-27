@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
 
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+   
+
 .img-cont{
   background-image: url('./images/desktop/image-header.jpg');
   background-size: contain;
@@ -18,5 +30,17 @@
 .nav-list{
   color: white;
   display: flex;
+}
+
+.nav-list < a {
   margin-right: 1.5rem;
+}
+
+.sunny{
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 1.5rem;
 }
