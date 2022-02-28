@@ -444,8 +444,8 @@ a.contact-links {
   
   .secondary-txt{
     text-align: center;
-    line-height: 1.5rem;
-    font-size: 18px;
+    line-height: 2rem;
+    font-size: 1.35rem;
   }
   
   .learn{
@@ -457,7 +457,8 @@ a.contact-links {
   }
 
 .design-txt{
-  line-height: 1.5rem;
+ line-height: 2rem;
+ font-size: 1.35rem;
 }
 
   .grid-container{
