@@ -513,6 +513,41 @@ grid-row-start: 6;
     grid-column-start: 1;
     grid-row-start: 3;
   }
+  
+  .title-tesimonials{
+    padding: 0.95rem;
+  }
+  
+  /*image gallery mobile grid*/
+  
+  .grid-gallery{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .milk{
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  
+  .orange{
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  
+  .cone{
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  
+  .sugar{
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  
+  
+  
+  
     
   
   
