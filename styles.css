@@ -4,6 +4,7 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 ul{
@@ -91,3 +92,59 @@ a{
   font-weight: 600;
   color: white;
 }
+
+.grid-container{
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.transform{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.egg{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.pink-cup{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.stand-out{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.graphic-design{
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.photography{
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.primary-txt{
+  font-family: 'Fraunces', serif;
+  display: flex;
+  justify-content: flex-start
+  flex-wrap: wrap;
+  text-align: left;
+  color: hsl(167, 40%, 24%);
+}
+
+.secondary-txt{
+  font-family: 'Fraunces', serif;
+  font-size: 16px;
+  color: hsl(213, 9%, 39%);
+  width: 100%;
+  text-align: left;
+}
+  
