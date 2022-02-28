@@ -8,6 +8,7 @@
 
 ul{
   list-style: none;
+  font-family: 'Barlow', serif;
 }
 
 ul li{
@@ -54,10 +55,19 @@ a{
 .nav-list{
   color: white;
   display: flex;
+  
 }
 
 .nav-list < a {
   margin-right: 1.5rem;
+}
+
+.contact-cont{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 15px;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
 }
 
 .sunny{
