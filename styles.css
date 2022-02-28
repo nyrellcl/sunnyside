@@ -260,6 +260,6 @@ img{
   font-family: 'Barlow', serif;
   text-align: center;
   color: hsl(168, 34%, 41%);
-  padding: 1.5rem;
+  padding: 0.5rem 0 1.5rem 0;
 }
   
