@@ -310,13 +310,12 @@ img{
 .footer-cont{
   width: 100%;
   padding: 1.5rem;
-  background-color: hsl(168, 34%, 41%);
+  background-color: hsl(167, 40%, 24%)
 }
 
 .sunny-title{
   font-family: 'Barlow', serif;
   font-weight: 600;
-  padding-top: 1.5rem;
   color: hsl(167, 40%, 24%);
 }
 
