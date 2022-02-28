@@ -491,6 +491,28 @@ grid-row-start: 6;
     float: right;
     padding: 0 1.5rem 0 1rem;
   }
+  
+  /*Client mobile grid*/
+  
+  .grid-testimonials{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  
+  .emily{
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  
+  .thomas{
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  
+  .jennie{
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
     
   
   
