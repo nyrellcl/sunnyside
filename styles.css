@@ -304,4 +304,47 @@ img{
   grid-column-start: 4;
   grid-row-start: 1;
 }
+
+/*Footer*/
+
+.footer-cont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: hsl(168, 34%, 41%);
+}
+
+.sunny-title{
+  font-family: 'Barlow', serif;
+  font-weight: 600;
+  padding-top: 1.5rem;
+  color: hsl(167, 40%, 24%);
+}
+
+.contact-links{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+.contact-links a{
+  color: hsl(167, 40%, 24%);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.logo-links{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rme;
+}
+
+.logo{
+  width: 30%;
+  margin: 0 auto;
+}
   
