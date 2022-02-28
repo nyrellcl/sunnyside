@@ -220,18 +220,21 @@ img{
   display: grid;
   grid-column-start: 1;
   grid-row-start: 1;
+  padding: 1.5rem;
 }
 
 .thomas{
   display: grid;
   grid-column-start: 2;
   grid-row-start: 1;
+  padding: 1.5rem;
 }
 
 .jennie{
   display: grid;
   grid-column-start: 3;
   grid-row-start: 1;
+  padding: 1.5rem;
 }
 
 .profiles{
@@ -264,7 +267,7 @@ img{
   font-family: 'Barlow', serif;
   text-align: center;
   color: hsl(168, 34%, 41%);
-  padding: 0 0 1.5rem 0;
+  padding: 0 0 5rem 0;
 }
 
 /*Image gallery*/
