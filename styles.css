@@ -136,11 +136,13 @@ img{
 .graphic-design{
   grid-column-start: 1;
   grid-row-start: 3;
+  background-image: url('./images/desktop/image-graphic-design.jpg');
 }
 
 .photography{
   grid-column-start: 2;
   grid-row-start: 3;
+  background-image: url('./images/desktop/image-photography.jpg');
 }
 
 .primary-txt{
