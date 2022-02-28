@@ -224,7 +224,7 @@ img{
 .thomas{
   display: grid;
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 1;
 }
 
 .jennie{
