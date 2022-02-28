@@ -112,7 +112,11 @@ img{
   padding: 4rem 4rem;
   margin: 1rem 0;
 }
-
+.learn{
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  font-weight: 900;
+}
 
 .egg{
   grid-column-start: 2;
@@ -355,5 +359,53 @@ a.contact-links {
 .logo{
   width: 100%;
   margin: 0 auto;
+}
+
+/*Mobile users*/
+
+@media screen and (max-width: 500px){
+  .img-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .grid-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+  
+  .transform{
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  
+  .egg{
+    grid-column-start: 1;
+    grid-row-start; 2;
+  }
+  
+  .pink-cup{
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+  
+  .stand-out{
+    grid-column-start: 1;
+    grid-row-start: 4;
+  }
+  
+  .graphic-design{
+    grid-column-start: 1;
+    grid-row-start: 5;
+  }
+  
+  .photography{
+grid-column-start: 1;
+grid-row-start: 6;
+}
+  
+  
+
 }
   
