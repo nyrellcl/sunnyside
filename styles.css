@@ -309,9 +309,6 @@ img{
 
 .footer-cont{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 1.5rem;
   background-color: hsl(168, 34%, 41%);
 }
