@@ -207,6 +207,7 @@ img{
   justify-content: center;
   grid-gap: 20px;
   width: 100%;
+  padding: 1.5rem;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -245,17 +246,20 @@ img{
   text-align: center;
   width: 100%;
   display: grid;
+  padding: 1.5rem;
 }
 
 .clients{
   font-family: 'Fraunces', serif;
   font-weight: 900;
   text-align: center;
+  padding: 1.5rem 0 0.5rem 0;
 }
 
 .client-roles{
   font-family: 'Barlow', serif;
   text-align: center;
   color: hsl(168, 34%, 41%);
+  padding: 1.5rem;
 }
   
