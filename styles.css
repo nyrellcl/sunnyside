@@ -362,9 +362,70 @@ a.contact-links {
   margin: 0 auto;
 }
 
+/*Mobile Ham icon*/
+/*hamburger icon code*/
+#ham-icon{
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#ham-icon div{
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.ham-container{
+  background-color: #152C52;
+}
+/*will rotate counterclockwise once user presses the icon which will form an X along with bar2*/
+.open .bar1{
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+/*will 'disappear' the user clicks on the icon*/
+.open .bar2{
+  opacity: 0;
+}
+
+.open .bar3{
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+/*once user opens the icon the links will display in a stacked view*/
+.open .mobile-menu{
+  display: flex;
+  flex-direction: column;/*stacks each link on top of each other on mobile*/
+  align-items: center;
+  justify-content: flex-start;
+}
+.mobile-menu{
+  display: none;
+  position: absolute;
+  top: 50px;/*fixed height of header*/
+  left: 0;
+  height: calc(70vh - 50px);/*takes the full remaining space of site hence width 100. set the height to 100 and subtract it from the height of header*/
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  /*sets the background of the menu once user opens the icon. I want to make this transition more seamless. (future update)*/
+  background-color: white;
+  opacity: 0.8;
+}
+.mobile-menu a{
+  color: black;
+}
+
+.mobile-menu li{
+  margin-bottom: 10px;
+}
+
 /*Mobile users*/
 
 @media screen and (max-width: 500px){
+  
   .img-cont{
     display: flex;
     flex-direction: column;
@@ -417,6 +478,13 @@ a.contact-links {
 grid-column-start: 1;
 grid-row-start: 6;
 }
+  
+  .nav-cont{
+    display: none;
+  }
+   #ham-icon{
+    display: block;
+  }
   
   
 
