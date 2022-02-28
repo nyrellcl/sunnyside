@@ -438,16 +438,27 @@ a.contact-links {
   
   .primary-txt{
     text-align: center;
+    font-size: 1.95rem;
   }
   
   .secondary-txt{
     text-align: center;
+    line-height: 1.5rem;
+    font-size: 18px;
   }
   
   .learn{
     text-align: center;
   }
   
+  .design-title
+    font-size: 1.95rem;
+  }
+
+.design-txt{
+  line-height: 1.5rem;
+}
+
   .grid-container{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
