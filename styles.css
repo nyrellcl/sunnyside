@@ -558,3 +558,24 @@ grid-row-start: 6;
   }
 }
 
+/*Desktop version*/
+
+@media screen and (max-width: 1440px){
+  .design-title{
+    font-size: 2rem;
+    margin: 20rem auto 0 auto;
+  }
+  
+  .design-txt{
+    font-size: 1.3rem;
+  }
+  
+  .primary-txt{
+    font-size: 2rem;
+  }
+  
+  .learn{
+    font-size: 1.5rem;
+  }
+}
+
