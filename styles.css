@@ -555,13 +555,12 @@ grid-row-start: 6;
     grid-column-start: 2;
     grid-row-start: 2;
   }
-  
-  
-  
-  
-    
-  
-  
+}
 
+/*desktop screens*/
+@media screen and (max-width: 1500px){
+  .design-title{
+    margin: 20rem auto 0 auto;
+  }
 }
   
