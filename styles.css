@@ -18,6 +18,7 @@ ul li{
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 
@@ -74,6 +75,7 @@ a{
 
 .contact-cont a{
   margin-left: 1rem;
+  color: hsl(167, 40%, 24%);
 }
 .sunny{
   float: left;
