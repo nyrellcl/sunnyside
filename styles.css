@@ -318,11 +318,14 @@ img{
   font-weight: 600;
   color: hsl(167, 40%, 24%);
 }
-
-.contact-links{
+.contact-container{
   display: flex;
   justify-content: space-evenly;
-  align-items: center; 
+  align-items: center;
+  width: 100%;
+}
+
+.contact-links{
   padding-top: 1rem;
   padding-bottom: 1.5rem;
   width: 100%;
