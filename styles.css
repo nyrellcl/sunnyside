@@ -68,4 +68,7 @@ a{
   flex-wrap: nowrap;
   margin-left: 1rem;
   font-family: 'Barlow', serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
 }
