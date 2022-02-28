@@ -382,7 +382,9 @@ a.contact-links {
   width: 100%;
   padding: 1rem 0 0 1rem;
 }
-  
+
+.sunny-container{
+}
 
 /*will rotate counterclockwise once user presses the icon which will form an X along with bar2*/
 .open .bar1{
