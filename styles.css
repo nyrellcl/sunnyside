@@ -266,4 +266,39 @@ img{
   color: hsl(168, 34%, 41%);
   padding: 0 0 1.5rem 0;
 }
+
+/*Image gallery*/
+
+.grid-gallery{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.milk{
+  display: grid;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.orange{
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.cone{
+  display: grid;
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.sugar{
+  display: grid;
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
   
