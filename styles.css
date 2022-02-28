@@ -558,10 +558,3 @@ grid-row-start: 6;
   }
 }
 
-/*desktop screens*/
-@media screen and (max-width: 1500px){
-  .design-title{
-    margin: 20rem auto 0 auto;
-  }
-}
-  
