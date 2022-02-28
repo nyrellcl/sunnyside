@@ -165,6 +165,7 @@ img{
   flex-wrap: wrap;
   text-align: left;
   color: hsl(167, 40%, 24%);
+  font-weight: 900;
 }
 
 .secondary-txt{
@@ -367,7 +368,19 @@ a.contact-links {
   .img-cont{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+  }
+  
+  .primary-txt{
+    text-align: center;
+  }
+  
+  .secondary-txt{
+    text-align: center;
+  }
+  
+  .learn{
+    text-align: center;
   }
   
   .grid-container{
