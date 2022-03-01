@@ -444,7 +444,8 @@ a.contact-links {
   .sunny-side-cont{
     display: block;
   }
-  
+  .sunny{
+  }
   .primary-txt{
     text-align: center;
     font-size: 1.95rem;
