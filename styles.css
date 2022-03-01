@@ -446,7 +446,11 @@ a.contact-links {
     align-items: center;
     height: 65vh;
   }
-
+  
+  .img-title{
+    margin-top: 25px;
+  }
+  
   .primary-txt {
     text-align: center;
     font-size: 1.95rem;
