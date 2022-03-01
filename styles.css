@@ -48,7 +48,9 @@ img{
 }
 
 .arrow{
-  height: 50%;
+  width: auto;
+  height: 85px;
+  margin-top: 2.85rem;
 }
 
 .nav-cont{
