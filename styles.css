@@ -357,6 +357,10 @@ a.contact-links {
   color: hsl(167, 40%, 24%);
 }
 
+a.contact-links:hover {
+    color: white;
+}
+
 .logo-links {
   display: flex;
   justify-content: center;
@@ -365,6 +369,10 @@ a.contact-links {
 
 .logo-links a {
   padding: 1rem;
+}
+
+ a.logo-links:hover{
+   color: white;
 }
 
 .logo {
