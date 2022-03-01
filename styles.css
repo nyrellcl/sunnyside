@@ -81,11 +81,12 @@ img {
 
 .contact-cont {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 50px;
   font-family: "Fraunces", serif;
   font-weight: 700;
   color: black;
-  padding: 0.5rem 0.5rem;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
 }
 
 .contact-cont a {
