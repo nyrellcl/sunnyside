@@ -84,9 +84,6 @@ img{
   color: hsl(167, 40%, 24%);
 }
 
-.sunny-side-cont{
-  display: none;
-}
 
 .sunny{
   float: left;
@@ -441,9 +438,6 @@ a.contact-links {
     align-items: center;
   }
   
-  .sunny-side-cont{
-    display: block;
-  }
   .sunny{
   }
   .primary-txt{
