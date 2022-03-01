@@ -83,6 +83,10 @@ img{
   margin-left: 1rem;
   color: hsl(167, 40%, 24%);
 }
+
+.sunny-side-cont{
+}
+
 .sunny{
   float: left;
   width: 100%;
