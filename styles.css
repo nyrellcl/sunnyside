@@ -477,12 +477,12 @@ a.contact-links {
   
   .transform{
     grid-column-start: 1;
-    grid-row-start: 1;
+    grid-row-start: 2;
   }
   
   .egg{
     grid-column-start: 1;
-    grid-row-start: 2;
+    grid-row-start: 1;
   }
   
   .pink-cup{
