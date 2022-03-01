@@ -186,6 +186,7 @@ img{
   color: hsl(213, 9%, 39%);
   width: 100%;
   text-align: left;
+  line-height: 1.5rem;
 }
   
 .design-title{
