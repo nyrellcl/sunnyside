@@ -47,6 +47,10 @@ img{
   margin-top: 50px;
 }
 
+.arrow{
+  height: 50%;
+}
+
 .nav-cont{
   position: relative;
   width: auto;
