@@ -127,6 +127,7 @@ img{
   font-family: 'Fraunces', serif;
   text-transform: uppercase;
   font-weight: 900;
+  color: hsl(167, 40%, 24%);
 }
 
 .egg{
@@ -453,16 +454,19 @@ a.contact-links {
   .primary-txt{
     text-align: center;
     font-size: 1.95rem;
+    margin-bottom: 2rem;
   }
   
   .secondary-txt{
     text-align: center;
     line-height: 2rem;
     font-size: 1.35rem;
+    margin-bottom: 2rem;
   }
   
   .learn{
     text-align: center;
+    
   }
   
   .design-title{
