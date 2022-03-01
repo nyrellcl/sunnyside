@@ -429,6 +429,9 @@ a.contact-links {
     padding: 0.5rem;
 }
 
+.mobile-menu li a{
+  color: hsl(213, 9%, 39%);
+}
 .mobile-menu {
   display: none;
   position: absolute;
