@@ -427,7 +427,6 @@ a.contact-links {
   font-size: 1.5rem;
   /*sets the background of the menu once user opens the icon. I want to make this transition more seamless. (future update)*/
   background-color: white;
-  opacity: 0.8;
 }
 .mobile-menu a {
   color: black;
