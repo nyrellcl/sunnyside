@@ -551,6 +551,8 @@ a.contact-links:hover {
   
   .ham-container{
     display: flex;
+    padding: 1rem;
+    width: 100%;
   }
   
   /*suggestion from Fay
@@ -566,9 +568,9 @@ a.contact-links:hover {
     justify-content: flex-end;
     flex-direction: column;
     margin-right: 1rem;*/
+    
     display: block;
-    float: right;
-    padding: 0 1.5rem 0 1rem;
+    margin-right: 1rem;
   }
 
   /*Client mobile grid*/
@@ -652,10 +654,6 @@ a.contact-links:hover {
   /*Suggestion from Fay*/
   .sunny {
     width: 100%;
-}
-
-.ham-container {
-    display: none;
 }
   
 }
