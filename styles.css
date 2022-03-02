@@ -403,6 +403,7 @@ a.contact-links:hover {
 .ham-container {
   width: 100%;
   padding: 1rem 0 0 1rem;
+  display: none;
 }
 
 .mobile-contact{
