@@ -475,10 +475,10 @@ a.contact-links:hover {
     align-items: center;
     height: 65vh;
   }
-  /*suggestion from Fay
+  /*suggestion from Fay*/
   .sunny{
-    display: flex;
-  }*/
+    width: 100%;
+  }
   
   .img-title{
     margin-top: 25px;
@@ -649,14 +649,14 @@ a.contact-links:hover {
   .learn {
     font-size: 1.5rem;
   }
-  /*Suggestion from Fay
+  /*Suggestion from Fay*/
   .sunny {
     width: 100%;
 }
 
 .ham-container {
     display: none;
-}*/
+}
   
 }
 
