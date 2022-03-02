@@ -475,6 +475,10 @@ a.contact-links:hover {
     align-items: center;
     height: 65vh;
   }
+  /*suggestion from Fay*/
+  .sunny{
+    display: flex;
+  }
   
   .img-title{
     margin-top: 25px;
@@ -544,10 +548,23 @@ a.contact-links:hover {
   .nav-bar {
     display: none;
   }
+  
+  /*suggestion from Fay*/
+  .ham-container { 
+    width: 100%;
+    padding: 1rem 0 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+  
   #ham-icon {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-right: 1rem;
+    /*display: block;
     float: right;
-    padding: 0 1.5rem 0 1rem;
+    padding: 0 1.5rem 0 1rem;*/
   }
 
   /*Client mobile grid*/
@@ -628,5 +645,14 @@ a.contact-links:hover {
   .learn {
     font-size: 1.5rem;
   }
+  /*Suggestion from Fay*/
+  .sunny {
+    width: 100%;
+}
+
+.ham-container {
+    display: none;
+}
+  
 }
 
