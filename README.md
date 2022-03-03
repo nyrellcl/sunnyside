@@ -1,4 +1,4 @@
-About the project
+# About the project
 
 Your challenge is to build out this landing page and get it looking as close to the design as possible.
 
@@ -12,7 +12,7 @@ View the optimal layout for the site depending on their device's screen size
 See hover states for all interactive elements on the page
 
 
-Built With
+# Built With
 
 Semantic HTML5 markup
 CSS custom properties
@@ -20,7 +20,7 @@ Flex
 Grid
 JavaScript
 
-What I learned
+# What I learned
 
 This project is the first one where I used Javascript, even if it was just using only one function. This helped me
 understand how JS is fitted into the HTML structure and how to declare it inside. 
@@ -38,7 +38,7 @@ Things still need to be worked on
 I'm having trouble displaying the menu drop down for mobile version, to have the pointy top design when the user clicks on the mobile nav-bar. 
 I have a pretty good idea of where to start.
 
-Acknowledgements
+# Acknowledgements
 
 A huge thank you to those who provided/are providing feedbacks to my solution. I am always ecstatic to see others helping me out on my projects!
 
